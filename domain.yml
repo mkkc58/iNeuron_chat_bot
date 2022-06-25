@@ -1,0 +1,20 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - recording_not_available
+
+responses:
+  utter_greet:
+  - text: "Hey! I am a bot from iNeuron how may I assist you"
+  utter_goodbye:
+  - text: "Bye"
+  utter_send_recordings:
+  - text: "check in your dashboard in the bottom you will find revision classes.If you do not find please check this link https://learn.ineuron.ai/lesson/Jan-17-Revision-Class/620b783afc57ee789da3c7df/course/Full-Stack-Data-Science-Nov&apos"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

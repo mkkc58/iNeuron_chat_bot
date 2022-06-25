@@ -1,0 +1,12 @@
+version: "2.0"
+
+stories:
+
+- story: send recordings path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recording_not_available
+  - action: utter_send_recordings
+
+
