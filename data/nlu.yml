@@ -175,3 +175,29 @@ nlu:
   examples: |
     - late coming
     - coming late
+- intent: internship
+  examples: |
+    - what projects do I get in ineuron internship?
+    - How can i find my internship project?
+    - May I know the duration of internship?
+    - where can I get internship certificate?
+    - what all projects availabale in Intenrship?
+- intent: change
+  examples: |
+    - I want to change my intenrship project
+    - Can i change my enrolled course?
+    - How can I change my batch?
+- intent: webinar_link
+  examples: |
+    - can you send me webinar link
+    - I cannot found my meeting link can you send me please
+    - from where can I get webinar link
+    - if possible can you send me meeting link
+    - I am facing issues with the meeting link can you resend again
+- intent: access_issue
+  examples: |
+    - I couldn't able to access dashboard
+    - dashboard cannot able to access
+    - asking password to access the workbench
+    - please provide access to DLCVNLP
+    - cannot able to record please give me access

@@ -44,6 +44,30 @@ stories:
   - action: utter_greet
   - intent: assignment
   - action: utter_assignment
+- story: regarding fees reply
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: fees_paid
+  - action: utter_fees_reply
+- story: internship
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: internship
+  - action: utter_internship
+- story: send webinar
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: webinar_link
+  - action: utter_webinar_link
+- story: access issue
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: access_issue
+  - action: utter_access_issue
 - story: out of scope
   steps:
   - intent: out_of_scope
@@ -52,9 +76,3 @@ stories:
   steps:
   - intent: greet_thanks
   - action: utter_say_thanks
-- story: regarding fees reply
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: fees_paid
-  - action: utter_fees_reply
