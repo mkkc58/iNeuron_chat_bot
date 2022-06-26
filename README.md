@@ -12,5 +12,5 @@ steps to run through docker in linux environment
 
 ####### DEMO DRIVE LINK #################
 ```bash
-"https://www.google.com/url?q=https://drive.google.com/drive/folders/1Q--2mLXTHfrzMjmqAQG7gXEaco8lLzgU?usp%3Dsharing&sa=D&source=hangouts&ust=1656317221538000&usg=AOvVaw3boCCKB0Yd3SsJVmaibsNG
+https://drive.google.com/drive/folders/1Q--2mLXTHfrzMjmqAQG7gXEaco8lLzgU?usp%3Dsharing&sa=D&source=hangouts&ust=1656317221538000&usg=AOvVaw3boCCKB0Yd3SsJVmaibsNG
 ```
