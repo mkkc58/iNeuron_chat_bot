@@ -7,6 +7,6 @@ COPY . /app
 # RUN pip install -r /app/requirements.txt
 RUN apt-get install pkg-config libxml2-dev libxmlsec1-dev libxmlsec1-openssl -y
 RUN pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
-RUN pip install rasa[spacy]==2.8.26
+RUN pip install rasa[spacy]
 RUN chmod u+r+x ./app/start_service.sh
 CMD ["./app/start_service.sh"]
